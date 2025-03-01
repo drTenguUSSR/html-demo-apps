@@ -1,1 +1,9 @@
+*~
+*.lock
+*.swp
+*.DS_Store
+*.log
+*.log.*
+*.tar
 *.bak
+*.tmp
