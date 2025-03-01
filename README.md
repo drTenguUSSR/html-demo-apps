@@ -2,4 +2,4 @@
 
 Содержит коллекцию небольших суб-проектов html5+javaScript
 
-[25b.corr-account](25b.corr-account/CorrAccCheck.html)
+[251.corr-account](251.corr-account/CorrAccCheck.html)
