@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru_RU">
+<html lang="ru">
 
 <head>
     <style>
@@ -40,6 +40,11 @@
             border-left-style: solid;
             border-right-width: 2px;
             border-right-style: solid;
+        }
+
+        hr.hr-common {
+            width: 75%;
+            margin-right: 1rem;
         }
     </style>
     <script>
@@ -140,14 +145,15 @@
             }
         }
     </script>
+    <title>Генератор/валидатор номера счета для физических лиц</title>
 </head>
 
 <body>
-    <h1>Генератор/валидатор номера счета для физических лиц4</h1>
+    <h1>Генератор/валидатор номера счета для физических лиц</h1>
     <header class="row-header">
         <div class="header-logo">
             <a href="https://github.com/drTenguUSSR">
-                <img src="../images/tengu-port.png" width="200" height="200" />
+                <img src="../images/tengu-port.png" width="200" height="200" alt="tengu-port">
             </a>
         </div>
         <div class="header-right">
@@ -165,7 +171,7 @@
             <br /> <a href="https://github.com/drTenguUSSR">https://github.com/drTenguUSSR </a>
         </div>
         <div class="header-logo">
-            <img src="cross-axe-logo.png" width="150" height="150" />
+            <img src="cross-axe-logo.png" width="150" height="150" alt="cross-axe-logo">
         </div>
     </header>
 
@@ -216,7 +222,8 @@
     <input type="button" value="заполнить тестовыми данными (A)" onclick="setDemoDateA()">
     <div id="Aresult">вычислить номер счета</div>
 
-    <hr width="80%" align="right" />
+    <hr class="hr-common">
+    
     <h2>Валидатор номера счета</h2>
 
     <br>
@@ -227,7 +234,7 @@
     <input type="button" value="проверить формат счета" onclick="corrDigiCheck()">
     <input type="button" value="заполнить тестовыми данными (B)" onclick="setDemoDateB()">
 
-    <hr width="80%" align="right" />
+    <hr class="hr-common">
     <h2>Дополнительная информация</h2>
     <ul>
         <li><a href="https://www.iban.ru/proverka-scheta">www.iban.ru/proverka-scheta</a>
@@ -244,7 +251,7 @@
         </li>
 
     </ul>
-    <hr width="80%" align="right" />
+    <hr class="hr-common">
     <!--
 <label for="controlId">Контрольная цифра:</label>
 <select name="control" id="controlId">

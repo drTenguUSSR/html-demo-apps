@@ -3,7 +3,7 @@
 Микро приложения на html + javascript.
 Содержит коллекцию небольших суб-проектов html5+javaScript
 опубликованы на
-https://drtenguussr.github.io/html-demo-apps
+<https://drtenguussr.github.io/html-demo-apps>
 
 Перечень суб проектов:
 
