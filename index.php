@@ -7,3 +7,7 @@ foreach ($arrData as $value){
 }
 echo "total=$sum";
 
+/**
+ * glitch
+ * 101
+ */
